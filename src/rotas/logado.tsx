@@ -1,6 +1,7 @@
 import { createStackNavigator,CardStyleInterpolators } from '@react-navigation/stack';
 import React from 'react';
 import tela_home from '../telas/home';
+import playVideo from '../telas/playVideo';
 
 const Stack = createStackNavigator();
 
@@ -18,11 +19,11 @@ const Stack = createStackNavigator();
             }}
         />
 
-        {/* <Stack.Screen name="config" component={tela_config} 
+        <Stack.Screen name="playvideo" component={playVideo} 
           options={{
-            title: 'Configuração',
+            title: 'Nome',
             headerStyle: {
-              backgroundColor: '#0EC1CA',
+              backgroundColor: '#000000',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -30,7 +31,7 @@ const Stack = createStackNavigator();
               
             },
           }}
-        /> */}
+        />
 
         
 

@@ -1,20 +1,18 @@
 {
   "name": "modelo",
   "displayName": "modelo",
-  
-
   "expo": {
     "androidNavigationBar": {
       "backgroundColor": "#1C1C1C"
     },
-
     "name": "modelo",
     "slug": "modelo",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.josuel123.modelo"
+    }
   }
-
 }
-
